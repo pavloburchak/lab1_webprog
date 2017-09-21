@@ -1,0 +1,96 @@
+a > span {
+    width :400px;
+    height :200px;
+    display: inline-block;
+    border : 1px solid black;
+    margin-top: 50px;
+    margin-left:50px;
+    margin-right:50px;
+    transition:all 0.3s ease;
+}
+
+#index {
+    height: 50%;
+    width: 50%;
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    padding: 10px;
+}
+
+#index:hover {
+    color:black;
+}
+
+.scale:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+h3 {
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+}
+
+.cortege {
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
+
+span span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    background: rgba(53, 52, 52, 0.7);
+    padding: 10px; 
+ }
+ h1 span {
+    color: white; 
+    font: bold 40px/60px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    padding-left: 35%; 
+ }
+
+ #sp1 {
+     background: url(audi.jpg) no-repeat left top;
+     background-size: 100% 100%;
+ }
+
+ #sp2 {
+    background: url(ford.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+
+#sp3 {
+    background: url(vw.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+
+#sp4 {
+    background: url(bmw.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+
+#sp5 {
+    background: url(mers.jpg) no-repeat left top;
+    background-size: 100% 100% ;
+}
+
+#salon {
+    background: url(salon.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid white; 
+    width: 50%;
+    height: 20% ;
+}
+
+th,td {
+    padding: 3px;
+    border: 1px solid maroon;
+    text-align: left;
+}
