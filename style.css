@@ -9,28 +9,27 @@ a > span {
     transition:all 0.3s ease;
 }
 
-#index {
-    height: 50%;
-    width: 50%;
-    color: white; 
-    font: bold 24px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;
-    padding: 10px;
-}
-
-#index:hover {
-    color:black;
-}
-
 .scale:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
-h3 {
-    font: bold 24px/45px Helvetica, Sans-Serif; 
+#backsp {
+    font: bold 40px/60px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
+    color: white;
+    padding-left: 30px;
+    width:auto;
+    height: auto;
+    margin-top: 0px;
+    border: 0px;
+}
+
+#back:visited{
+    font: bold 40px/60px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    color: white;
 }
 
 .cortege {
@@ -45,11 +44,11 @@ span span {
     background: rgba(53, 52, 52, 0.7);
     padding: 10px; 
  }
+
  h1 span {
     color: white; 
-    font: bold 40px/60px Helvetica, Sans-Serif; 
+    font: bold 35px/20px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
-    padding-left: 35%; 
  }
 
  #sp1 {
@@ -80,17 +79,4 @@ span span {
 #salon {
     background: url(salon.jpg) no-repeat left top;
     background-size: 100% 100%;
-}
-
-table {
-    border-collapse: collapse;
-    border: 2px solid white; 
-    width: 50%;
-    height: 20% ;
-}
-
-th,td {
-    padding: 3px;
-    border: 1px solid maroon;
-    text-align: left;
 }
