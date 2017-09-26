@@ -13,25 +13,25 @@
 
 #brands {
     color: white; 
-    font: bold 40px/60px Helvetica, Sans-Serif; 
+    font: bold 70px/60px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
     background: rgba(53, 52, 52, 0.45);
     padding: 10px;
+    margin-left:380px;
 }
 
 #index_background {
     width: 99%;
-    height: 400px;
+    height: 250px;
     background: url(salon.jpg) no-repeat left top;
     background-size: 100% 100%;
 }
 
 div{
-    padding-top:60px;
+    padding-top:150px;
 }
 
 h1 {
-
     font: bold 35px/20px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
 }
