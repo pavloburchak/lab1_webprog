@@ -78,5 +78,6 @@ span span {
 
 #salon {
     background: url(salon.jpg) no-repeat left top;
-    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
 }

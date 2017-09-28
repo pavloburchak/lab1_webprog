@@ -4,6 +4,7 @@ table {
     border: 2px solid white; 
     width: 72%;
     height: 20% ;
+    margin: auto;
 }
 
 th {
@@ -24,6 +25,7 @@ div {
     width: 72%;
     height: 300px;
     border: 1px dotted #05CFF3; 
+    margin: auto;
 }
 
 h1 {
