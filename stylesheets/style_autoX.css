@@ -26,10 +26,7 @@ div {
     height: 300px;
     border: 1px dotted #05CFF3; 
     margin: auto;
-}
-
-h1 {
-    font: bold Helvetica, Sans-Serif
+    margin-top:10px;
 }
 
 #backsp {
@@ -47,4 +44,23 @@ h1 {
     font: bold 24px/45px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
     color: #16AFCA;
+}
+
+nav {
+    height: 50px;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3D8D59;
+    font: bold 40px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    color: white; 
+}
+
+body {
+    width: 100%;    
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
 }

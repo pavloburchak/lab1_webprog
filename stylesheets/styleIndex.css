@@ -1,37 +1,58 @@
+body {
+    width: 100%;    
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+
 #index {
-    height: 50%;
-    width: 99%;
+    height: 100px;
     color: white; 
     font: bold 24px/45px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
-    padding: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
 }
 
 #index:hover {
     color:black;
 }
 
-#brands {
+span {
     color: white; 
-    font: bold 70px/60px Helvetica, Sans-Serif; 
+    font: italic 40px/60px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
     background: rgba(53, 52, 52, 0.45);
     padding: 10px;
-    margin-left:380px;
+}
+
+li {
+    color: white; 
+    font: italic 40px/60px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    padding: 10px;
+    margin-left:38px;
+    margin-bottom: 50px;
+    border-left: 2px solid white;
 }
 
 #index_background {
-    width: 99%;
-    height: 250px;
-    background: url(./images/salon.jpg) no-repeat left top;
+    height: 450px;
+    background: url(.././images/salon.jpg) no-repeat left top;
     background-size: 100% 100%;
+    padding-top:15px;
+    margin-top: 10px;
 }
 
-div{
-    padding-top:150px;
-}
-
-h1 {
-    font: bold 35px/20px Helvetica, Sans-Serif; 
+nav {
+    height: 50px;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3D8D59;
+    color: white; 
+    font:  40px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
 }
