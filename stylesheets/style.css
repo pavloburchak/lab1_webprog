@@ -51,33 +51,33 @@ span span {
     letter-spacing: -1px;
  }
 
- #sp1 {
-     background: url(audi.jpg) no-repeat left top;
-     background-size: 100% 100%;
- }
+#sp1 {
+    background: url(.././images/audi.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
 
- #sp2 {
-    background: url(ford.jpg) no-repeat left top;
+#sp2 {
+    background: url(.././images/ford.jpg) no-repeat left top;
     background-size: 100% 100%;
 }
 
 #sp3 {
-    background: url(vw.jpg) no-repeat left top;
+    background: url(.././images/vw.jpg) no-repeat left top;
     background-size: 100% 100%;
 }
 
 #sp4 {
-    background: url(bmw.jpg) no-repeat left top;
+    background: url(.././images/bmw.jpg) no-repeat left top;
     background-size: 100% 100%;
 }
 
 #sp5 {
-    background: url(mers.jpg) no-repeat left top;
+    background: url(.././images/mers.jpg) no-repeat left top;
     background-size: 100% 100% ;
 }
 
 #salon {
-    background: url(salon.jpg) no-repeat left top;
+    background: url(.././images/salon.jpg) no-repeat left top;
     background-attachment: fixed;
     background-size: cover;
 }

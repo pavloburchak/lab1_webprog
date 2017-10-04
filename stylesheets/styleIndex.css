@@ -23,7 +23,7 @@
 #index_background {
     width: 99%;
     height: 250px;
-    background: url(salon.jpg) no-repeat left top;
+    background: url(./images/salon.jpg) no-repeat left top;
     background-size: 100% 100%;
 }
 
