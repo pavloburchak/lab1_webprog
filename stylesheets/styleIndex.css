@@ -38,7 +38,7 @@ li {
 }
 
 #index_background {
-    height: 450px;
+    height: 70vh;
     background: url(.././images/salon.jpg) no-repeat left top;
     background-size: 100% 100%;
     padding-top:15px;
@@ -56,3 +56,42 @@ nav {
     font:  40px Helvetica, Sans-Serif; 
     letter-spacing: -1px;
 }
+
+input,select {
+    border: 1px solid #3D8D59;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px; 
+    background: #ffffff !important; 
+    height: 30px; 
+    width: 300px; 
+    color:black; 
+    font-size: 20px;
+    font-family: bold, Helvetica;
+    padding-left: 5px;
+    margin-bottom: 5px;
+ }
+
+ form {
+    font-size: 20px;
+    font-family: bold, Helvetica;  
+    margin-left: 25%;
+    margin-top: 10px;
+ }
+
+ #pic {
+    background: url(.././images/m3.jpg) no-repeat left top;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 50vh;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    color:white; 
+    border: 1px solid #3D8D59;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px; 
+ }

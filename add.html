@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MACHI KORO'S AUTOS</title>
+  <meta name="description" content="MY FIRST SITE DESCRIPTION">
+  <meta name="author" content="Paul Burchak">
+  <link type="text/css" href="./stylesheets/styleIndex.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav>Add new auto</nav>
+    <div style="float:left">
+    <form>
+        Model:<br>
+        <input type="text" name="model" id="model"><br>
+        Size class:<br>
+        <select name="size">
+            <option value="" disabled selected>Choose a size</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="B+">B+</option>
+            <option value="C">C</option>
+            <option value="C+">C+</option>
+            <option value="D">D</option>
+            <option value="D+">D+</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="J">J</option>
+            <option value="M">M</option>
+            <option value="S">S</option>
+            <option value="S (Pony car)">S (Pony car)</option>
+        </select><br>
+        Doors:<br>
+        <input type="number" name="doors" id="doors" min="2" value="2" max='7'><br>
+        Engine type:<br>
+        <input type="text" name="engine" id="engine"><br>
+        Engine volume:<br>
+        <input type="number" name="vol" id="vol" min="500"><br>
+        Production start date:<br>
+        <input type="date" name="date" id="date" value="2017-06-01"><br>
+        Choose a picture:<br>
+        <input type="file" id="ava" name="ava" /><br><br>
+        <input type="submit" value="Add">        
+    </form>
+</div>
+<div id="pic">
+        Choosen picture<br></div>
+</body>
+
+</html>
